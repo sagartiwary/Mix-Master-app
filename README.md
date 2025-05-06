@@ -46,6 +46,7 @@ const App = () => {
 export default App;
 ```
 
+
 #### Setup Pages
 
 - pages are components
