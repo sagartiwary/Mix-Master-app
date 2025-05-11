@@ -9,6 +9,7 @@ export const loader = async () => {
   const searchData = '';
   const response = await axios.get(`${url}${searchData}`);
   const data = await response.data.drinks;
+  console.log(data);
   return { drinks: data || [], searchData };
 };
 
